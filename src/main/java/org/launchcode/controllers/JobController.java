@@ -28,6 +28,8 @@ public class JobController {
 
         // TODO #1 - get the Job with the given ID and pass it into the view
 
+        //get & give
+
         Job job= jobData.findById(id);
 
         model.addAttribute("job", job);
@@ -50,6 +52,7 @@ public class JobController {
         // redirect to the job detail view for the new Job.
 
 
+        //using getters to retrieve ID's to fill new job fields & display
 
         if (! jobForm.getName().equals("")) {
 

@@ -21,7 +21,6 @@ public class JobForm {
 
     @NotNull
     private int employerId;
-
     private int locationId;
     private int coreCompetencyId;
     private int positionTypeId;
@@ -31,6 +30,8 @@ public class JobForm {
         with correct validation attributes and display names.
         Don't forget to add getters and setters
      */
+
+    //Aye aye, cap'n
 
 
     JobData jobData = JobData.getInstance();
